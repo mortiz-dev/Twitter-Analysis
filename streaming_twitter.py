@@ -42,4 +42,4 @@ class CustomStreamListener(tw.Stream):
 
 if __name__ == '__main__':
     streamingAPI = CustomStreamListener(consumer_key, consumer_secret, access_token, access_secret_token)
-    streamingAPI.filter(track=['banco nacion', '#banconacion', 'bna+'])
+    streamingAPI.filter(track=['banco nacion', '#banconacion', 'bna+', 'bna conecta', 'expo pyme'])
